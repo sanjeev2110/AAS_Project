@@ -1,0 +1,321 @@
+{
+  "idShort": "HMI_HT225HPB",
+  "description": [
+    {
+      "language": "en",
+      "text": "Submodel containing technical data of the HMI HT225HPB."
+    }
+  ],
+  "id": "https://contitech.com/submodels/hmi-ht225hpb",
+  "kind": "Instance",
+  "semanticId": {
+    "type": "ExternalReference",
+    "keys": [
+      {
+        "type": "GlobalReference",
+        "value": "https://contitech.com/semantic/hmi-ht225hpb"
+      }
+    ]
+  },
+  "submodelElements": [
+    {
+      "idShort": "TechnicalProperties",
+      "description": [
+        {
+          "language": "en",
+          "text": "Technical properties of the HMI HT225HPB."
+        }
+      ],
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://contitech.com/ids/cd/technical-properties"
+          }
+        ]
+      },
+      "value": [
+        {
+          "idShort": "DisplaySize",
+          "description": [
+            {
+              "language": "en",
+              "text": "Display size in cm and inches."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/display-size"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "54.6 cm / 21.5 inches",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Resolution",
+          "description": [
+            {
+              "language": "en",
+              "text": "Resolution of the display."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/resolution"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "1920 x 1080 Full HD",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Brightness",
+          "description": [
+            {
+              "language": "en",
+              "text": "Brightness of the display."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/brightness"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "300 cd/m² (Panel) – 255 cd/m² (Monitor)",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Contrast",
+          "description": [
+            {
+              "language": "en",
+              "text": "Contrast ratio of the display."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/contrast"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "80,000,000:1 (Active)",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Inputs",
+          "description": [
+            {
+              "language": "en",
+              "text": "Types of inputs available on the display."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/inputs"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "HDMI + DP + VGA",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "TouchType",
+          "description": [
+            {
+              "language": "en",
+              "text": "Touch technology used in the display."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/touch-type"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "Projected Capacitive Type – 10 Point Touch",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "ViewingAngle",
+          "description": [
+            {
+              "language": "en",
+              "text": "Viewing angles of the display."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/viewing-angle"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "178° / 178°",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "PowerConsumption",
+          "description": [
+            {
+              "language": "en",
+              "text": "Power consumption of the display."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/power-consumption"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "value": "On: 16W; Stand-by: 0.3W; Off: 0.3W",
+          "modelType": "Property"
+        }
+      ],
+      "modelType": "SubmodelElementCollection"
+    },
+    {
+      "idShort": "OperationalProperties",
+      "description": [
+        {
+          "language": "en",
+          "text": "Operational view for tracking good, bad, and total number of parts."
+        }
+      ],
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://contitech.com/ids/cd/operational-properties"
+          }
+        ]
+      },
+      "value": [
+        {
+          "category": "VARIABLE",
+          "idShort": "GoodParts",
+          "description": [
+            {
+              "language": "en",
+              "text": "Number of good parts produced."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/good-part"
+              }
+            ]
+          },
+          "valueType": "xs:positiveInteger",
+          "value": 150,
+          "modelType": "Property"
+        },
+        {
+          "category": "VARIABLE",
+          "idShort": "BadParts",
+          "description": [
+            {
+              "language": "en",
+              "text": "Number of bad parts produced."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/bad-part"
+              }
+            ]
+          },
+          "valueType": "xs:positiveInteger",
+          "value": 50,
+          "modelType": "Property"
+        },
+        {
+          "category": "VARIABLE",
+          "idShort": "InOperation",
+          "description": [
+            {
+              "language": "en",
+              "text": "Indicates if the machine is in operation."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/in-operation"
+              }
+            ]
+          },
+          "valueType": "xs:boolean",
+          "value": true,
+          "modelType": "Property"
+        },
+        {
+          "category": "VARIABLE",
+          "idShort": "Idle",
+          "description": [
+            {
+              "language": "en",
+              "text": "Indicates if the machine is idle."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://contitech.com/ids/cd/idle"
+              }
+            ]
+          },
+          "valueType": "xs:boolean",
+          "value": false,
+          "modelType": "Property"
+        }
+      ],
+      "modelType": "SubmodelElementCollection"
+    }
+  ],
+  "modelType": "Submodel"
+}
